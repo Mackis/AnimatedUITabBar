@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0150AC52208685CC00D22EAF /* AnimatedTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0150AC51208685CC00D22EAF /* AnimatedTabBarItem.swift */; };
+		01B71E8C208535620019DBB1 /* UITabBarAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B71E8B208535620019DBB1 /* UITabBarAnimator.swift */; };
+		01B71E8F208535D50019DBB1 /* SlidingOverlayAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B71E8E208535D50019DBB1 /* SlidingOverlayAnimator.swift */; };
+		01B71E91208535E70019DBB1 /* ZoomAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B71E90208535E70019DBB1 /* ZoomAnimator.swift */; };
+		01B71E93208536A20019DBB1 /* UnderlineAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B71E92208536A20019DBB1 /* UnderlineAnimator.swift */; };
+		01B774E920836E6400248A96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B774E820836E6400248A96 /* AppDelegate.swift */; };
+		01B774F020836E6400248A96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01B774EF20836E6400248A96 /* Assets.xcassets */; };
+		01B774F320836E6400248A96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01B774F120836E6400248A96 /* LaunchScreen.storyboard */; };
+		01B774FE20836EE800248A96 /* AnimatedUITabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B774FD20836EE800248A96 /* AnimatedUITabBarController.swift */; };
+		01B7750120836F4900248A96 /* AnimatedUITabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B7750020836F4900248A96 /* AnimatedUITabBar.swift */; };
+		01B77508208375AC00248A96 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B77507208375AC00248A96 /* LeftViewController.swift */; };
+		01B7750A208375D200248A96 /* MiddleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B77509208375D200248A96 /* MiddleViewController.swift */; };
+		01B7750C208375EA00248A96 /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B7750B208375EA00248A96 /* RightViewController.swift */; };
+		9534318A2DDD50B6AD572FFC /* Pods_AnimatedUITabBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6F60A49AC6C1E079C4DD57 /* Pods_AnimatedUITabBar.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0150AC51208685CC00D22EAF /* AnimatedTabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedTabBarItem.swift; sourceTree = "<group>"; };
+		01B71E8B208535620019DBB1 /* UITabBarAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBarAnimator.swift; sourceTree = "<group>"; };
+		01B71E8E208535D50019DBB1 /* SlidingOverlayAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingOverlayAnimator.swift; sourceTree = "<group>"; };
+		01B71E90208535E70019DBB1 /* ZoomAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomAnimator.swift; sourceTree = "<group>"; };
+		01B71E92208536A20019DBB1 /* UnderlineAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderlineAnimator.swift; sourceTree = "<group>"; };
+		01B774E520836E6400248A96 /* AnimatedUITabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedUITabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01B774E820836E6400248A96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01B774EF20836E6400248A96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01B774F220836E6400248A96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01B774F420836E6400248A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01B774FD20836EE800248A96 /* AnimatedUITabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedUITabBarController.swift; sourceTree = "<group>"; };
+		01B7750020836F4900248A96 /* AnimatedUITabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedUITabBar.swift; sourceTree = "<group>"; };
+		01B77507208375AC00248A96 /* LeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		01B77509208375D200248A96 /* MiddleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleViewController.swift; sourceTree = "<group>"; };
+		01B7750B208375EA00248A96 /* RightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
+		13D3DAAF396182032BF04207 /* Pods-AnimatedUITabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatedUITabBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnimatedUITabBar/Pods-AnimatedUITabBar.debug.xcconfig"; sourceTree = "<group>"; };
+		A65B79A549C922691881BB9A /* Pods-AnimatedUITabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatedUITabBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnimatedUITabBar/Pods-AnimatedUITabBar.release.xcconfig"; sourceTree = "<group>"; };
+		AE6F60A49AC6C1E079C4DD57 /* Pods_AnimatedUITabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimatedUITabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01B774E220836E6400248A96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9534318A2DDD50B6AD572FFC /* Pods_AnimatedUITabBar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B71E8A2085350F0019DBB1 /* UITabBarAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				01B71E8B208535620019DBB1 /* UITabBarAnimator.swift */,
+				01B71E8D208535B50019DBB1 /* Animator */,
+			);
+			path = UITabBarAnimator;
+			sourceTree = "<group>";
+		};
+		01B71E8D208535B50019DBB1 /* Animator */ = {
+			isa = PBXGroup;
+			children = (
+				01B71E8E208535D50019DBB1 /* SlidingOverlayAnimator.swift */,
+				01B71E90208535E70019DBB1 /* ZoomAnimator.swift */,
+				01B71E92208536A20019DBB1 /* UnderlineAnimator.swift */,
+			);
+			path = Animator;
+			sourceTree = "<group>";
+		};
+		01B774DC20836E6400248A96 = {
+			isa = PBXGroup;
+			children = (
+				01B774E720836E6400248A96 /* AnimatedUITabBar */,
+				01B774E620836E6400248A96 /* Products */,
+				EEF86A9B8C2C8F783FAFE0F4 /* Pods */,
+				E9870BA866706ACCCD54018B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		01B774E620836E6400248A96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01B774E520836E6400248A96 /* AnimatedUITabBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01B774E720836E6400248A96 /* AnimatedUITabBar */ = {
+			isa = PBXGroup;
+			children = (
+				01B774FA20836E7800248A96 /* Application */,
+				01B775062083758A00248A96 /* Controllers */,
+				01B774FC20836EA900248A96 /* Source */,
+				01B774EF20836E6400248A96 /* Assets.xcassets */,
+			);
+			path = AnimatedUITabBar;
+			sourceTree = "<group>";
+		};
+		01B774FA20836E7800248A96 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				01B774E820836E6400248A96 /* AppDelegate.swift */,
+				01B774F120836E6400248A96 /* LaunchScreen.storyboard */,
+				01B774F420836E6400248A96 /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		01B774FC20836EA900248A96 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				01B774FD20836EE800248A96 /* AnimatedUITabBarController.swift */,
+				01B7750020836F4900248A96 /* AnimatedUITabBar.swift */,
+				0150AC51208685CC00D22EAF /* AnimatedTabBarItem.swift */,
+				01B71E8A2085350F0019DBB1 /* UITabBarAnimator */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		01B775062083758A00248A96 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				01B77507208375AC00248A96 /* LeftViewController.swift */,
+				01B77509208375D200248A96 /* MiddleViewController.swift */,
+				01B7750B208375EA00248A96 /* RightViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E9870BA866706ACCCD54018B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE6F60A49AC6C1E079C4DD57 /* Pods_AnimatedUITabBar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEF86A9B8C2C8F783FAFE0F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13D3DAAF396182032BF04207 /* Pods-AnimatedUITabBar.debug.xcconfig */,
+				A65B79A549C922691881BB9A /* Pods-AnimatedUITabBar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01B774E420836E6400248A96 /* AnimatedUITabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01B774F720836E6400248A96 /* Build configuration list for PBXNativeTarget "AnimatedUITabBar" */;
+			buildPhases = (
+				43997C872E5209A1EFA3E4FE /* [CP] Check Pods Manifest.lock */,
+				01B774E120836E6400248A96 /* Sources */,
+				01B774E220836E6400248A96 /* Frameworks */,
+				01B774E320836E6400248A96 /* Resources */,
+				F4037E29ECE2521576238B73 /* [CP] Embed Pods Frameworks */,
+				A4D14ACE8BAD5FF9DD01ED78 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimatedUITabBar;
+			productName = AnimatedUITabBar;
+			productReference = 01B774E520836E6400248A96 /* AnimatedUITabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01B774DD20836E6400248A96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Malcolm Kumwenda";
+				TargetAttributes = {
+					01B774E420836E6400248A96 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 01B774E020836E6400248A96 /* Build configuration list for PBXProject "AnimatedUITabBar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01B774DC20836E6400248A96;
+			productRefGroup = 01B774E620836E6400248A96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01B774E420836E6400248A96 /* AnimatedUITabBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01B774E320836E6400248A96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B774F320836E6400248A96 /* LaunchScreen.storyboard in Resources */,
+				01B774F020836E6400248A96 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43997C872E5209A1EFA3E4FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnimatedUITabBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4D14ACE8BAD5FF9DD01ED78 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AnimatedUITabBar/Pods-AnimatedUITabBar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4037E29ECE2521576238B73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AnimatedUITabBar/Pods-AnimatedUITabBar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftIcons/SwiftIcons.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftIcons.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AnimatedUITabBar/Pods-AnimatedUITabBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01B774E120836E6400248A96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B71E8C208535620019DBB1 /* UITabBarAnimator.swift in Sources */,
+				01B7750A208375D200248A96 /* MiddleViewController.swift in Sources */,
+				01B774FE20836EE800248A96 /* AnimatedUITabBarController.swift in Sources */,
+				01B71E93208536A20019DBB1 /* UnderlineAnimator.swift in Sources */,
+				01B77508208375AC00248A96 /* LeftViewController.swift in Sources */,
+				01B7750120836F4900248A96 /* AnimatedUITabBar.swift in Sources */,
+				01B71E91208535E70019DBB1 /* ZoomAnimator.swift in Sources */,
+				01B774E920836E6400248A96 /* AppDelegate.swift in Sources */,
+				01B71E8F208535D50019DBB1 /* SlidingOverlayAnimator.swift in Sources */,
+				0150AC52208685CC00D22EAF /* AnimatedTabBarItem.swift in Sources */,
+				01B7750C208375EA00248A96 /* RightViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		01B774F120836E6400248A96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01B774F220836E6400248A96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01B774F520836E6400248A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01B774F620836E6400248A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01B774F820836E6400248A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13D3DAAF396182032BF04207 /* Pods-AnimatedUITabBar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B534EWRJTS;
+				INFOPLIST_FILE = "$(SRCROOT)/AnimatedUITabBar/Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mdevsa.AnimatedUITabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01B774F920836E6400248A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A65B79A549C922691881BB9A /* Pods-AnimatedUITabBar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B534EWRJTS;
+				INFOPLIST_FILE = "$(SRCROOT)/AnimatedUITabBar/Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mdevsa.AnimatedUITabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01B774E020836E6400248A96 /* Build configuration list for PBXProject "AnimatedUITabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01B774F520836E6400248A96 /* Debug */,
+				01B774F620836E6400248A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01B774F720836E6400248A96 /* Build configuration list for PBXNativeTarget "AnimatedUITabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01B774F820836E6400248A96 /* Debug */,
+				01B774F920836E6400248A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01B774DD20836E6400248A96 /* Project object */;
+}
