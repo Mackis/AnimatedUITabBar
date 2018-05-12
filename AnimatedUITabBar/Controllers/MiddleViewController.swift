@@ -8,10 +8,18 @@
 
 import UIKit
 
-class MiddleViewController: UIViewController {
+class MiddleViewController: MDVTabbableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .red 
+    }
+    
+    func mdvTabBarItem() -> UITabBarItem {
+        let tabBarItem = UITabBarItem(title: "", image: nil, selectedImage: nil)
+        tabBarItem.setIcon(icon: .dripicon(.home),
+                           size: CGSize(width: 30, height: 30),
+                           textColor: .blue)
+        return tabBarItem
     }
 }

@@ -7,11 +7,25 @@
 //
 
 import UIKit
+import SwiftIcons
 
-class LeftViewController: UIViewController {
+class LeftViewController: MDVTabbableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = .white
+        self.view.backgroundColor = .yellow
+    }
+    
+    func mdvTabBarItem() -> UITabBarItem {
+        let tabBarItem = UITabBarItem()
+        tabBarItem.selectedImage = UIImage(icon: .dripicon(.home),
+                                           size: CGSize(width: 25, height: 25),
+                                           textColor: .blue,
+                                           backgroundColor: .clear)
+        tabBarItem.image = UIImage(icon: .dripicon(.heart),
+                                   size: CGSize(width: 25, height: 25),
+                                   textColor: .red,
+                                   backgroundColor: .clear)
+        return tabBarItem
     }
 }

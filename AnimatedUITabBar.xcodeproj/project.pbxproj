@@ -7,25 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0150AC52208685CC00D22EAF /* AnimatedTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0150AC51208685CC00D22EAF /* AnimatedTabBarItem.swift */; };
-		01B71E8C208535620019DBB1 /* UITabBarAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B71E8B208535620019DBB1 /* UITabBarAnimator.swift */; };
+		011C1B71209960A4004CEF6B /* MDVTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011C1B70209960A4004CEF6B /* MDVTabBarController.swift */; };
+		011C1B75209964CA004CEF6B /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011C1B74209964CA004CEF6B /* MyTabBarController.swift */; };
+		0150AC52208685CC00D22EAF /* MDVTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0150AC51208685CC00D22EAF /* MDVTabBarItem.swift */; };
+		01B71E8C208535620019DBB1 /* MDVTabBarAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B71E8B208535620019DBB1 /* MDVTabBarAnimator.swift */; };
 		01B71E8F208535D50019DBB1 /* SlidingOverlayAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B71E8E208535D50019DBB1 /* SlidingOverlayAnimator.swift */; };
 		01B71E91208535E70019DBB1 /* ZoomAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B71E90208535E70019DBB1 /* ZoomAnimator.swift */; };
 		01B71E93208536A20019DBB1 /* UnderlineAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B71E92208536A20019DBB1 /* UnderlineAnimator.swift */; };
 		01B774E920836E6400248A96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B774E820836E6400248A96 /* AppDelegate.swift */; };
 		01B774F020836E6400248A96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01B774EF20836E6400248A96 /* Assets.xcassets */; };
 		01B774F320836E6400248A96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01B774F120836E6400248A96 /* LaunchScreen.storyboard */; };
-		01B774FE20836EE800248A96 /* AnimatedUITabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B774FD20836EE800248A96 /* AnimatedUITabBarController.swift */; };
-		01B7750120836F4900248A96 /* AnimatedUITabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B7750020836F4900248A96 /* AnimatedUITabBar.swift */; };
+		01B7750120836F4900248A96 /* MDVTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B7750020836F4900248A96 /* MDVTabBar.swift */; };
 		01B77508208375AC00248A96 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B77507208375AC00248A96 /* LeftViewController.swift */; };
 		01B7750A208375D200248A96 /* MiddleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B77509208375D200248A96 /* MiddleViewController.swift */; };
 		01B7750C208375EA00248A96 /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B7750B208375EA00248A96 /* RightViewController.swift */; };
+		01CCD7ED20A7887D00C9DDE8 /* MDVTabbableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CCD7EC20A7887D00C9DDE8 /* MDVTabbableViewController.swift */; };
+		01CCD7EF20A788B300C9DDE8 /* MDVTabBarControllerDataSource+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CCD7EE20A788B300C9DDE8 /* MDVTabBarControllerDataSource+Delegate.swift */; };
+		01CCD7F120A788D600C9DDE8 /* MDVTabBarDataSource+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CCD7F020A788D600C9DDE8 /* MDVTabBarDataSource+Delegate.swift */; };
+		01CCD7F320A7890C00C9DDE8 /* MDVTabBarItemable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CCD7F220A7890C00C9DDE8 /* MDVTabBarItemable.swift */; };
 		9534318A2DDD50B6AD572FFC /* Pods_AnimatedUITabBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6F60A49AC6C1E079C4DD57 /* Pods_AnimatedUITabBar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0150AC51208685CC00D22EAF /* AnimatedTabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedTabBarItem.swift; sourceTree = "<group>"; };
-		01B71E8B208535620019DBB1 /* UITabBarAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBarAnimator.swift; sourceTree = "<group>"; };
+		011C1B70209960A4004CEF6B /* MDVTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDVTabBarController.swift; sourceTree = "<group>"; };
+		011C1B74209964CA004CEF6B /* MyTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
+		0150AC51208685CC00D22EAF /* MDVTabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDVTabBarItem.swift; sourceTree = "<group>"; };
+		01B71E8B208535620019DBB1 /* MDVTabBarAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDVTabBarAnimator.swift; sourceTree = "<group>"; };
 		01B71E8E208535D50019DBB1 /* SlidingOverlayAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingOverlayAnimator.swift; sourceTree = "<group>"; };
 		01B71E90208535E70019DBB1 /* ZoomAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomAnimator.swift; sourceTree = "<group>"; };
 		01B71E92208536A20019DBB1 /* UnderlineAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderlineAnimator.swift; sourceTree = "<group>"; };
@@ -34,11 +41,14 @@
 		01B774EF20836E6400248A96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01B774F220836E6400248A96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01B774F420836E6400248A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		01B774FD20836EE800248A96 /* AnimatedUITabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedUITabBarController.swift; sourceTree = "<group>"; };
-		01B7750020836F4900248A96 /* AnimatedUITabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedUITabBar.swift; sourceTree = "<group>"; };
+		01B7750020836F4900248A96 /* MDVTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDVTabBar.swift; sourceTree = "<group>"; };
 		01B77507208375AC00248A96 /* LeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
 		01B77509208375D200248A96 /* MiddleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleViewController.swift; sourceTree = "<group>"; };
 		01B7750B208375EA00248A96 /* RightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
+		01CCD7EC20A7887D00C9DDE8 /* MDVTabbableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDVTabbableViewController.swift; sourceTree = "<group>"; };
+		01CCD7EE20A788B300C9DDE8 /* MDVTabBarControllerDataSource+Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MDVTabBarControllerDataSource+Delegate.swift"; sourceTree = "<group>"; };
+		01CCD7F020A788D600C9DDE8 /* MDVTabBarDataSource+Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MDVTabBarDataSource+Delegate.swift"; sourceTree = "<group>"; };
+		01CCD7F220A7890C00C9DDE8 /* MDVTabBarItemable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDVTabBarItemable.swift; sourceTree = "<group>"; };
 		13D3DAAF396182032BF04207 /* Pods-AnimatedUITabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatedUITabBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnimatedUITabBar/Pods-AnimatedUITabBar.debug.xcconfig"; sourceTree = "<group>"; };
 		A65B79A549C922691881BB9A /* Pods-AnimatedUITabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatedUITabBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnimatedUITabBar/Pods-AnimatedUITabBar.release.xcconfig"; sourceTree = "<group>"; };
 		AE6F60A49AC6C1E079C4DD57 /* Pods_AnimatedUITabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimatedUITabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,23 +66,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01B71E8A2085350F0019DBB1 /* UITabBarAnimator */ = {
-			isa = PBXGroup;
-			children = (
-				01B71E8B208535620019DBB1 /* UITabBarAnimator.swift */,
-				01B71E8D208535B50019DBB1 /* Animator */,
-			);
-			path = UITabBarAnimator;
-			sourceTree = "<group>";
-		};
-		01B71E8D208535B50019DBB1 /* Animator */ = {
+		01B71E8A2085350F0019DBB1 /* MDVTabBarAnimator */ = {
 			isa = PBXGroup;
 			children = (
 				01B71E8E208535D50019DBB1 /* SlidingOverlayAnimator.swift */,
 				01B71E90208535E70019DBB1 /* ZoomAnimator.swift */,
 				01B71E92208536A20019DBB1 /* UnderlineAnimator.swift */,
 			);
-			path = Animator;
+			path = MDVTabBarAnimator;
 			sourceTree = "<group>";
 		};
 		01B774DC20836E6400248A96 = {
@@ -117,10 +118,11 @@
 		01B774FC20836EA900248A96 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				01B774FD20836EE800248A96 /* AnimatedUITabBarController.swift */,
-				01B7750020836F4900248A96 /* AnimatedUITabBar.swift */,
-				0150AC51208685CC00D22EAF /* AnimatedTabBarItem.swift */,
-				01B71E8A2085350F0019DBB1 /* UITabBarAnimator */,
+				011C1B70209960A4004CEF6B /* MDVTabBarController.swift */,
+				01B7750020836F4900248A96 /* MDVTabBar.swift */,
+				0150AC51208685CC00D22EAF /* MDVTabBarItem.swift */,
+				01B71E8A2085350F0019DBB1 /* MDVTabBarAnimator */,
+				01CCD7EB20A7883A00C9DDE8 /* Protocol */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -128,11 +130,24 @@
 		01B775062083758A00248A96 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				011C1B74209964CA004CEF6B /* MyTabBarController.swift */,
 				01B77507208375AC00248A96 /* LeftViewController.swift */,
 				01B77509208375D200248A96 /* MiddleViewController.swift */,
 				01B7750B208375EA00248A96 /* RightViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		01CCD7EB20A7883A00C9DDE8 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				01B71E8B208535620019DBB1 /* MDVTabBarAnimator.swift */,
+				01CCD7EC20A7887D00C9DDE8 /* MDVTabbableViewController.swift */,
+				01CCD7EE20A788B300C9DDE8 /* MDVTabBarControllerDataSource+Delegate.swift */,
+				01CCD7F020A788D600C9DDE8 /* MDVTabBarDataSource+Delegate.swift */,
+				01CCD7F220A7890C00C9DDE8 /* MDVTabBarItemable.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 		E9870BA866706ACCCD54018B /* Frameworks */ = {
@@ -280,16 +295,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01B71E8C208535620019DBB1 /* UITabBarAnimator.swift in Sources */,
+				01CCD7F120A788D600C9DDE8 /* MDVTabBarDataSource+Delegate.swift in Sources */,
+				01B71E8C208535620019DBB1 /* MDVTabBarAnimator.swift in Sources */,
+				01CCD7ED20A7887D00C9DDE8 /* MDVTabbableViewController.swift in Sources */,
 				01B7750A208375D200248A96 /* MiddleViewController.swift in Sources */,
-				01B774FE20836EE800248A96 /* AnimatedUITabBarController.swift in Sources */,
 				01B71E93208536A20019DBB1 /* UnderlineAnimator.swift in Sources */,
 				01B77508208375AC00248A96 /* LeftViewController.swift in Sources */,
-				01B7750120836F4900248A96 /* AnimatedUITabBar.swift in Sources */,
+				01B7750120836F4900248A96 /* MDVTabBar.swift in Sources */,
+				011C1B75209964CA004CEF6B /* MyTabBarController.swift in Sources */,
+				01CCD7F320A7890C00C9DDE8 /* MDVTabBarItemable.swift in Sources */,
 				01B71E91208535E70019DBB1 /* ZoomAnimator.swift in Sources */,
 				01B774E920836E6400248A96 /* AppDelegate.swift in Sources */,
+				01CCD7EF20A788B300C9DDE8 /* MDVTabBarControllerDataSource+Delegate.swift in Sources */,
 				01B71E8F208535D50019DBB1 /* SlidingOverlayAnimator.swift in Sources */,
-				0150AC52208685CC00D22EAF /* AnimatedTabBarItem.swift in Sources */,
+				0150AC52208685CC00D22EAF /* MDVTabBarItem.swift in Sources */,
+				011C1B71209960A4004CEF6B /* MDVTabBarController.swift in Sources */,
 				01B7750C208375EA00248A96 /* RightViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

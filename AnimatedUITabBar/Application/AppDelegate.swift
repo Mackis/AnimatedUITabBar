@@ -18,7 +18,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // Initialise our application.
         self.window = UIWindow(frame: UIScreen.main.bounds)
-        let tabBarController = AnimatedUITabBarController(initialViewController: .left)
+        // 1. Create TabBar with initial index
+        // 2. Give it it's tabBarItems
+        // 3. Give it it's viewControllers
+        // 4. Give it it's animator
+        // 5. Set it's delegate 
+        let tabBarController = MyTabBarController()
+        tabBarController.selectedIndex = 3
         self.window?.rootViewController = tabBarController
         self.window?.makeKeyAndVisible()
         

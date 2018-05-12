@@ -8,10 +8,18 @@
 
 import UIKit
 
-class RightViewController: UIViewController {
+class RightViewController: MDVTabbableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = .purple 
+        self.view.backgroundColor = .green
+    }
+    
+    func mdvTabBarItem() -> UITabBarItem {
+        let tabBarItem = UITabBarItem(title: "", image: nil, selectedImage: nil)
+        tabBarItem.setIcon(icon: .dripicon(.home),
+                           size: CGSize(width: 30, height: 30),
+                           textColor: .blue)
+        return tabBarItem
     }
 }
